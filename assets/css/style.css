@@ -443,12 +443,6 @@ h6 {
     font-size: 28px;
     line-height: 36px;
   }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
 }
 
 .clients {
@@ -459,22 +453,11 @@ h6 {
 
 .clients h2 {
   max-width: 45%;
-  transition: all 0.4s ease-in-out;
   font-weight: bold;
+  color: white;
   display: inline-block;
-  padding: 15px 0;
 }
 
-.clients img:hover {
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    max-width: 40%;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
