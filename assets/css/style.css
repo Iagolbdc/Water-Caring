@@ -816,6 +816,7 @@ section {
   border-top: 4px solid #0c74f3;
   text-align: center;
   padding: 30px 20px;
+  
 }
 
 #footer .footer-top .footer-info img {
@@ -909,14 +910,31 @@ section {
   color: #0c74f3;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+  
+.footer-info{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 0;
+
 }
 
-@media (max-width: 995px) {
-  .footer-newsletter{
+  #footer{
+    position: relative;
+    height: 500px;
     
+    
+  }
+  
+}
+
+@media (max-width: 991px) {
+  .footer-info , .footer-newsletter{
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
