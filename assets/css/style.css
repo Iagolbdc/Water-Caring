@@ -514,13 +514,13 @@ section {
     font-size: 38px;
   }
 }
-
+ 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .about .content ul {
@@ -533,12 +533,13 @@ section {
 }
 
 .about .content ul i {
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 4px;
   color: #0665DB;
 }
 
 .about .content p:last-child {
+  font-size: 24px;
   margin-bottom: 0;
 }
 
@@ -546,6 +547,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   padding: 80px 20px;
