@@ -1,3 +1,25 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC0V5575rrGTTRvRk2heoJrnHCOiBnz5BQ",
+  authDomain: "water-caring.firebaseapp.com",
+  projectId: "water-caring",
+  storageBucket: "water-caring.appspot.com",
+  messagingSenderId: "160915160590",
+  appId: "1:160915160590:web:3957bdecba912f29c1c65f",
+  measurementId: "G-9F5RHDNM8K"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 /**
 * Template Name: Day - v4.9.1
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
