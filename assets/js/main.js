@@ -244,12 +244,13 @@
 })()
 
 // Login nav
-if(localStorage.length == 0){
-  
-}else{
-    
-    let login = document.getElementById("login2");
+if(localStorage.length != 0){
+    let login = document.querySelector("#login2");
+    let perfil = document.getElementById("perfil");
+    let Cadastro = document.getElementById("Cadastro");
+    login.href = "./Perfil.html";
     login.innerText = localStorage.getItem("valueText");
-    document.getElementById("perfil").innerHTML = localStorage.getItem("valueText"); 
-    login.href = "./perfil.html";
+    Cadastro.className = "hide";
+    perfil.innerText = localStorage.getItem("valueText");
+
 }

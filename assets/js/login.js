@@ -1,7 +1,4 @@
-
-        
-        
-        function setValor(){
+function setValor(){
             var text = document.querySelector(".usuario").value 
             localStorage.setItem('valueText', text)
         }
