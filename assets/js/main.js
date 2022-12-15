@@ -246,11 +246,9 @@
 // Login nav
 if(localStorage.length != 0){
     let login = document.querySelector("#login2");
-    let perfil = document.getElementById("perfil");
-    let Cadastro = document.getElementById("Cadastro");
+    let Cadastro = document.querySelector("#Cadastro");
     login.href = "./Perfil.html";
     login.innerText = localStorage.getItem("valueText");
     Cadastro.className = "hide";
-    perfil.innerText = localStorage.getItem("valueText");
-
 }
+

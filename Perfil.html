@@ -75,11 +75,8 @@
 
     <section id="">
       <ul>
-        <li><a href="link1.htm">link1</a></li>
-        <li><a href="link2.htm">link2</a></li>
-        <li><a href="link3.htm">link3</a></li>
-        <li><a href="link4.htm">link4</a></li>
-        <li><a href="link5.htm">link5</a></li>
+        <li><a href="link1.htm">Dispositivos</a></li>
+        <li><a href="link2.htm">Minhas estatísticas</a></li>
         </ul>
       </section>
 
@@ -134,7 +131,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<script>
+  document.getElementById("perfil").innerText = localStorage.getItem("valueText");
+</script>
 </body>
 
 </html>
