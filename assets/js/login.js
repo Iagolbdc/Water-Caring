@@ -33,4 +33,9 @@ function setValor(){
                 New_account.classList.add('aparecer')
                 Sign_in.classList.remove('aparecer')
         })
-      console.log(sign.classList.contains('bg-cor'))
+        
+        function aparece(){
+            document.getElementById("errouser").classList.add("aparecer")
+            document.getElementById("errouser").classList.remove("esconder")
+            
+        }

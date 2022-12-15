@@ -254,6 +254,23 @@
     animation: animMudar .3s;
   }
   
+  .esconder{
+    display: none;
+  }
+
+  .ErroUsuario{
+    position: absolute;
+    top: 65%;
+    border: 1px solid rgb(0, 0, 0);
+    width: 83%;
+    padding: 20px 0px 20px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    animation: animMudar .3s;
+  }
+  
   @keyframes animMudar{
     from{
         opacity: 0;
